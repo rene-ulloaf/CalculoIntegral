@@ -1,0 +1,14 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=6110D8F1
+eax=FFFFFFA6 ebx=00A69EBF ecx=00000000 edx=FFFFFFA6 esi=00A69ECB edi=FFFFFFA6
+ebp=0022CC38 esp=0022CC34 program=C:\Users\rulloa.MA\Mios\Programacion\espacio trabajos eclipse\c\CalculoIntegral\dist\Debug\Cygwin_4.x-Windows\calculointegral.exe, pid 3284, thread main
+cs=001B ds=0023 es=0023 fs=003B gs=0000 ss=0023
+Stack trace:
+Frame     Function  Args
+0022CC38  6110D8F1  (FFFFFFA6, 61004A20, 00000000, 00000000)
+0022CC68  00401212  (FFFFFFA6, 00A69ECB, 0022CC88, 004011C0)
+0022CC78  004011F8  (00A69EBF, 0022CCA0, 0022CD58, 61006CD3)
+0022CC88  004011C0  (00A69ECB, 61179FC3, 0022CD58, 61006CD3)
+0022CD58  61006CD3  (00000000, 0022CD94, 61006570, 7FFD5000)
+End of stack trace
+249693062 [main] calculointegral 3284 exception::handle: Exception: STATUS_ACCESS_VIOLATION
+249733185 [main] calculointegral 3284 exception::handle: Error while dumping state (probably corrupted stack)
